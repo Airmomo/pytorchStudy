@@ -7,7 +7,6 @@ import torch.nn as nn
 
 from torch.utils.tensorboard import SummaryWriter
 from torch.utils.data import DataLoader, TensorDataset
-from util import modelUtil
 
 """
     单隐藏层的简单线性分类模型
